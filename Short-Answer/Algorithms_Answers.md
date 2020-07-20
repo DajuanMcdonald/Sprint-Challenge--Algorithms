@@ -33,7 +33,7 @@ sum = 0
 If we examine we eliminate O(1) because we now have a
 range of size n. This loop essentially runs Linear time with input
 size. The time grows proportional to the length of the list. 
-
+The while loop runs N/2 (j to n * 2, sum n + 1) thus: N + N + 1 = N^2 or O(n)
 c)
 An example of O(2^n) 
 
@@ -44,4 +44,5 @@ def bunnyEars(bunnies):
 
       return 2 + bunnyEars(bunnies-1)
 ```
+If we examine we can eliminate O(n^2) 
 ## Exercise II
