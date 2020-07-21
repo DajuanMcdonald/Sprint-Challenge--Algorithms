@@ -19,8 +19,7 @@ def count_th(word):
 
 # prints 6
 
-
-print(count_th(word="testhisthatthTHosethemthree"))
+print(count_th(word="testhisthatthTHthosethemthree"))
 
 # prints 1
 print(count_th(word="leather"))
