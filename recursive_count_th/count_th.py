@@ -10,10 +10,10 @@ def count_th(word):
         return 0
 
     occur = word[:2]
-    if occur == "th":
+    if occur == "th" or occur == "TH":
         return 1 + count_th(word[2:])
 
     return count_th(word[1:])
 
 
-print(count_th("testhisthatthosethemthree"))
+print(count_th("testhisthatthTHosethemthree"))
